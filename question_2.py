@@ -8,6 +8,15 @@
 
 import random
 def generate_random_number():
+    """
+        Generates a random number and returns the randomly generated number
+
+            Parameters:
+             None.
+
+            Returns:
+                    pick_random_number (Int): Randomly generated number
+    """
 
     # Generating a random number and saving it in a variable
     pick_random_number = random.randint(1, 15)
@@ -21,6 +30,15 @@ def generate_random_number():
 
 
 def get_user_inputs(pick_random_number):
+    """
+        Prompts user for input 3 times to guess the randomly generated number with some hints
+
+            Parameters:
+                    pick_random_number (Int): Randomly generated number
+
+            Returns:
+                    None.
+    """
 
     # Initializing some variables for tracking user guesses and if they are true
     user_guess = []
